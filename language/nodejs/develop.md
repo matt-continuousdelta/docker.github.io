@@ -175,12 +175,7 @@ If all goes will you should see something similar:
 Now let’s test our API endpoint. Run the following curl command:
 
 ```shell
-$ curl --request GET --url http://localhost:
-
-
-
-
-/services/m/notes
+$ curl --request GET --url http://localhost:8000/services/m/notes
 ```
 
 You should receive the following response:
